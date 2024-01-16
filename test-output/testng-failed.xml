@@ -5,7 +5,7 @@
     <classes>
       <class name="test.RegisterTest">
         <methods>
-          <include name="listUserAPI"/>
+          <include name="registerUserAPI"/>
         </methods>
       </class> <!-- test.RegisterTest -->
     </classes>
