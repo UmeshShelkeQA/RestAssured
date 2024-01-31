@@ -8,6 +8,7 @@
     <classes>
       <class name="test.RegisterTest">
         <methods>
+          <include name="addUserAPI"/>
           <include name="registerUserAPI"/>
         </methods>
       </class> <!-- test.RegisterTest -->

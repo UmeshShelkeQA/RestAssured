@@ -1,0 +1,540 @@
+2024-01-17 13:55:43,660 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 13:55:46,403 - APITestLogger -INFO - Got place_id = 53273f61b304a52af7ff3b824fa6e44a
+2024-01-17 13:55:46,404 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 13:55:46,442 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 13:55:46,451 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 13:55:46,473 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 13:55:46,508 - APITestLogger -INFO - Test Passed
+2024-01-17 13:55:46,520 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 13:55:47,264 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 13:55:47,266 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 13:55:47,273 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 13:55:47,289 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 13:55:47,295 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 13:55:47,480 - APITestLogger -INFO - Test Passed
+2024-01-17 13:59:46,939 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+ addLocationPOSTCallAPITest2024-01-17 13:59:49,471 - APITestLogger -INFO - Got place_id = 4c994be41172d41fa76c1a9b529cd8ea
+ addLocationPOSTCallAPITest2024-01-17 13:59:49,472 - APITestLogger -INFO - Validating Response Code [200]
+ addLocationPOSTCallAPITest2024-01-17 13:59:49,505 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+ addLocationPOSTCallAPITest2024-01-17 13:59:49,512 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+ addLocationPOSTCallAPITest2024-01-17 13:59:49,528 - APITestLogger -INFO - Checking response time is less than 2 seconds
+ addLocationPOSTCallAPITest2024-01-17 13:59:49,556 - APITestLogger -INFO - Test Passed
+ addLocationPOSTCallAPITest2024-01-17 13:59:49,950 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+ getLocationGETCallAPITest2024-01-17 13:59:51,917 - APITestLogger -INFO - Validating Response Code [200]
+ getLocationGETCallAPITest2024-01-17 13:59:51,918 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+ getLocationGETCallAPITest2024-01-17 13:59:51,919 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+ getLocationGETCallAPITest2024-01-17 13:59:51,922 - APITestLogger -INFO - Checking response time is less than 2 seconds
+ getLocationGETCallAPITest2024-01-17 13:59:51,925 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+ getLocationGETCallAPITest2024-01-17 13:59:52,095 - APITestLogger -INFO - Test Passed
+ getLocationGETCallAPITest2024-01-17 14:01:35,591 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:01:35,940 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:01:38,380 - APITestLogger -INFO - Got place_id = f383e9f7391b7b00b06b7fc72171883d
+2024-01-17 14:01:38,381 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:01:38,413 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:01:38,420 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:01:38,437 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:01:38,463 - APITestLogger -INFO - Test Passed
+2024-01-17 14:01:38,837 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:01:38,838 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:01:39,557 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:01:39,559 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:01:39,560 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:01:39,574 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:01:39,581 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:01:39,767 - APITestLogger -INFO - Test Passed
+2024-01-17 14:06:27,841 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:06:28,180 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:06:30,574 - APITestLogger -INFO - Got place_id = 7b0be689c53d689c47842a1fe8b1be25
+2024-01-17 14:06:30,575 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:06:30,605 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:06:30,620 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:06:30,634 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:06:30,660 - APITestLogger -INFO - Test Passed
+2024-01-17 14:06:30,992 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:06:30,993 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:06:32,028 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:06:32,030 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:06:32,031 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:06:32,042 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:06:32,050 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:07:55,739 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:07:56,106 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:07:58,645 - APITestLogger -INFO - Got place_id = fec8de4337b46ceb5e2b2a76e8bb8d08
+2024-01-17 14:07:58,646 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:07:58,690 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:07:58,699 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:07:58,717 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:07:58,745 - APITestLogger -INFO - Test Passed
+2024-01-17 14:07:59,063 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:07:59,064 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:08:00,093 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:08:00,095 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:08:00,097 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:08:00,102 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:08:00,106 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:11:09,878 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:11:10,263 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:11:12,825 - APITestLogger -INFO - Got place_id = d17fb5b6ae3e3fa485c5613fabda451c
+2024-01-17 14:11:12,826 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:11:12,870 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:11:12,879 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:11:12,897 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:11:12,922 - APITestLogger -INFO - Test Passed
+2024-01-17 14:11:13,293 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:11:13,295 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:11:14,059 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:11:14,061 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:11:14,064 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:11:14,068 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:11:14,071 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:21:54,858 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:21:55,197 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:21:57,865 - APITestLogger -INFO - Got place_id = 0ddc616402940638d26c66e3e3de948c
+2024-01-17 14:21:57,866 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:21:57,894 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:21:57,901 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:21:57,915 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:21:57,938 - APITestLogger -INFO - Test Passed
+2024-01-17 14:21:58,253 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:21:58,254 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:21:59,116 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:21:59,119 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:21:59,122 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:21:59,133 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:21:59,138 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:21:59,345 - APITestLogger -ERROR - Test Failed : java.lang.AssertionError: expected [Place(location=Location(lat=-38.383494, lng=33.427362), accuracy=50, name=Frontline house, phone_number=(+91) 983 893 3937, address=29, side layout, cohen 09, types=[shoe park, shop], website=http://google.com, language=French-IN, place_id=null)] but found [Place(location=Location(lat=-38.383494, lng=33.427362), accuracy=50, name=Frontline house, phone_number=(+91) 983 893 3937, address=29, side layout, cohen 09, types=[shoe, park,shop], website=http://google.com, language=French-IN, place_id=null)]
+2024-01-17 14:30:43,784 - APITestLogger -INFO - Author : Umesh
+2024-01-17 14:30:43,793 - APITestLogger -INFO - Execution started : addUserAPI()
+2024-01-17 14:30:44,203 - APITestLogger -INFO - Sending POST request To '/api/users' with request body {name=morpheus, job=leader}
+2024-01-17 14:30:46,639 - APITestLogger -INFO - Validating Response Code [201]
+2024-01-17 14:30:46,679 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:30:46,688 - APITestLogger -INFO - Validating Response body contains ['id', 'createdAt'] 
+2024-01-17 14:30:46,718 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:30:47,082 - APITestLogger -INFO - Author : Lisa
+2024-01-17 14:30:47,083 - APITestLogger -INFO - Execution started : getUserAPI()
+2024-01-17 14:30:47,084 - APITestLogger -INFO - Sending GET request To 'https://reqres.in/api/users/2' with no request data 
+2024-01-17 14:30:48,030 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:30:48,031 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:30:48,034 - APITestLogger -INFO - Validating Response body contains ['id', 'email'] 
+2024-01-17 14:30:48,037 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:30:48,068 - APITestLogger -INFO - Author : Tom
+2024-01-17 14:30:48,068 - APITestLogger -INFO - Execution started : registerUserAPI()
+2024-01-17 14:30:48,389 - APITestLogger -INFO - Sending POST request To 'https://reqres.in/api/register' with request body {
+	"email": "eve.holt@reqres.in",
+	"id": 0,
+	"password": "pistol"
+}
+2024-01-17 14:30:49,280 - APITestLogger -INFO - Validating Response Code [201]
+2024-01-17 14:30:49,289 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:30:49,292 - APITestLogger -INFO - Validating Response body contains ['id', 'createdAt'] 
+2024-01-17 14:30:49,295 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:30:49,325 - APITestLogger -INFO - Author : Umesh
+2024-01-17 14:30:49,325 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:30:49,340 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:30:50,394 - APITestLogger -INFO - Got place_id = 2d030213c14999d5988e57f292713484
+2024-01-17 14:30:50,395 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:30:50,397 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:30:50,400 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:30:50,404 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:30:50,411 - APITestLogger -INFO - Test Passed
+2024-01-17 14:30:50,438 - APITestLogger -INFO - Author : Lisa
+2024-01-17 14:30:50,439 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:30:50,440 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:30:51,336 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:30:51,340 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:30:51,341 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:30:51,347 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:30:51,352 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:30:51,548 - APITestLogger -ERROR - Test Failed : java.lang.AssertionError: expected [Place(location=Location(lat=-38.383494, lng=33.427362), accuracy=50, name=Frontline house, phone_number=(+91) 983 893 3937, address=29, side layout, cohen 09, types=[shoe park, shop], website=http://google.com, language=French-IN, place_id=null)] but found [Place(location=Location(lat=-38.383494, lng=33.427362), accuracy=50, name=Frontline house, phone_number=(+91) 983 893 3937, address=29, side layout, cohen 09, types=[shoe, park,shop], website=http://google.com, language=French-IN, place_id=null)]
+2024-01-17 14:35:36,699 - APITestLogger -INFO - Execution started : addUserAPI()
+2024-01-17 14:35:36,710 - APITestLogger -INFO - Author : Umesh
+2024-01-17 14:35:37,149 - APITestLogger -INFO - Sending POST request To '/api/users' with request body {name=morpheus, job=leader}
+2024-01-17 14:35:40,060 - APITestLogger -INFO - Validating Response Code [201]
+2024-01-17 14:35:40,093 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:35:40,103 - APITestLogger -INFO - Validating Response body contains ['id', 'createdAt'] 
+2024-01-17 14:35:40,135 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:35:40,174 - APITestLogger -INFO - Test Passed
+2024-01-17 14:35:40,582 - APITestLogger -INFO - Execution started : getUserAPI()
+2024-01-17 14:35:40,583 - APITestLogger -INFO - Author : Lisa
+2024-01-17 14:35:40,584 - APITestLogger -INFO - Sending GET request To 'https://reqres.in/api/users/2' with no request data 
+2024-01-17 14:35:41,668 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:35:41,670 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:35:41,674 - APITestLogger -INFO - Validating Response body contains ['id', 'email'] 
+2024-01-17 14:35:41,680 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:35:41,686 - APITestLogger -INFO - Test Passed
+2024-01-17 14:35:41,712 - APITestLogger -INFO - Execution started : registerUserAPI()
+2024-01-17 14:35:41,712 - APITestLogger -INFO - Author : Tom
+2024-01-17 14:35:42,031 - APITestLogger -INFO - Sending POST request To 'https://reqres.in/api/register' with request body {
+	"email": "eve.holt@reqres.in",
+	"id": 0,
+	"password": "pistol"
+}
+2024-01-17 14:35:43,402 - APITestLogger -INFO - Validating Response Code [201]
+2024-01-17 14:35:43,403 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:35:43,404 - APITestLogger -INFO - Validating Response body contains ['id', 'createdAt'] 
+2024-01-17 14:35:43,405 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:35:43,408 - APITestLogger -INFO - Test Passed
+2024-01-17 14:35:43,441 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:35:43,441 - APITestLogger -INFO - Author : Umesh
+2024-01-17 14:35:43,457 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:35:44,346 - APITestLogger -INFO - Got place_id = b5f9a08c1929c1786312913cf0c99ee4
+2024-01-17 14:35:44,347 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:35:44,348 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:35:44,351 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:35:44,355 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:35:44,362 - APITestLogger -INFO - Test Passed
+2024-01-17 14:35:44,387 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:35:44,388 - APITestLogger -INFO - Author : Lisa
+2024-01-17 14:35:44,389 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:35:45,438 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:35:45,439 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:35:45,441 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:35:45,447 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:35:45,451 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:35:45,616 - APITestLogger -INFO - Test Passed
+2024-01-17 14:44:59,066 - APITestLogger -INFO - Execution started : addUserAPI()
+2024-01-17 14:44:59,073 - APITestLogger -INFO - Author : Umesh
+2024-01-17 14:44:59,078 - APITestLogger -INFO - Sending POST request To 'https://reqres.in/api/users' with request body {name=morpheus, job=leader}
+2024-01-17 14:45:03,698 - APITestLogger -INFO - Validating Response Code [201]
+2024-01-17 14:45:03,730 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:45:03,739 - APITestLogger -INFO - Validating Response body contains ['id', 'createdAt'] 
+2024-01-17 14:45:03,767 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:45:03,825 - APITestLogger -ERROR - Test Failed : java.lang.AssertionError: 1 expectation failed.
+Expected response time was not a value less than <3000L> milliseconds, was 3523 milliseconds (3523 milliseconds).
+2024-01-17 14:45:04,184 - APITestLogger -INFO - Execution started : getUserAPI()
+2024-01-17 14:45:04,185 - APITestLogger -INFO - Author : Lisa
+2024-01-17 14:45:04,188 - APITestLogger -INFO - Sending GET request To 'https://reqres.in/api/users/2' with no request data 
+2024-01-17 14:45:05,317 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:45:05,318 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:45:05,320 - APITestLogger -INFO - Validating Response body contains ['id', 'email'] 
+2024-01-17 14:45:05,327 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:45:05,332 - APITestLogger -INFO - Test Passed
+2024-01-17 14:45:05,387 - APITestLogger -INFO - Execution started : registerUserAPI()
+2024-01-17 14:45:05,390 - APITestLogger -INFO - Author : Tom
+2024-01-17 14:45:05,702 - APITestLogger -INFO - Sending POST request To 'https://reqres.in/api/register' with request body {
+	"email": "eve.holt@reqres.in",
+	"id": 0,
+	"password": "pistol"
+}
+2024-01-17 14:45:06,946 - APITestLogger -INFO - Validating Response Code [201]
+2024-01-17 14:45:06,957 - APITestLogger -ERROR - Test Failed : java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+2024-01-17 14:45:06,986 - APITestLogger -INFO - Execution Started : addLocationPOSTCallAPITest()
+2024-01-17 14:45:06,987 - APITestLogger -INFO - Author : Umesh
+2024-01-17 14:45:07,005 - APITestLogger -INFO - Sending request with data : {
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:45:08,290 - APITestLogger -INFO - Got place_id = 3fcf73460b53f4b1277bff7294bb5c46
+2024-01-17 14:45:08,291 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:45:08,293 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:45:08,295 - APITestLogger -INFO - Validating Response body contains [ 'id', 'place_id', 'reference', 'scope', 'status'] 
+2024-01-17 14:45:08,304 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:45:08,310 - APITestLogger -INFO - Test Passed
+2024-01-17 14:45:08,336 - APITestLogger -INFO - Execution Started : getLocationGETCallAPITest()
+2024-01-17 14:45:08,337 - APITestLogger -INFO - Author : Lisa
+2024-01-17 14:45:08,338 - APITestLogger -INFO - Sending request to http://rahulshettyacademy.com/maps/api/place/get/json?place_id={place_id}&key={key}
+2024-01-17 14:45:09,003 - APITestLogger -INFO - Validating Response Code [200]
+2024-01-17 14:45:09,005 - APITestLogger -INFO - Validating Response Content-Type [JSON]
+2024-01-17 14:45:09,007 - APITestLogger -INFO - Validating Response body contains [ 'location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'] 
+2024-01-17 14:45:09,016 - APITestLogger -INFO - Checking response time is less than 2 seconds
+2024-01-17 14:45:09,019 - APITestLogger -INFO - Validating response data Expected :{
+	"accuracy": 50,
+	"address": "29, side layout, cohen 09",
+	"language": "French-IN",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"name": "Frontline house",
+	"phone_number": "(+91) 983 893 3937",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com"
+}
+2024-01-17 14:45:09,200 - APITestLogger -INFO - Test Passed

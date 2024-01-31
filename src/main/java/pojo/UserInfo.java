@@ -16,8 +16,8 @@ public class UserInfo {
 	private String email;
 	private String address;
 	private String password;
-	
 	private int id;
+
 //	comming from apache.jeneau
 	@Beanc
 	public UserInfo() {

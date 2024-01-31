@@ -8,7 +8,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-
+import test.BaseTest;
 public class TestManager {
 
 	private static ExtentReports extent = ReportManager.getReportManager().getExtentReporter();
@@ -35,6 +35,8 @@ public class TestManager {
 		if (testMapper.containsKey(runningTestObject)) {
 			ExtentTest test = testMapper.get(runningTestObject);
 			test.log(Status.PASS, "Test Passed");
+			BaseTest baseTest = (BaseTest) runningTestObject;
+			baseTest.getLogger().info("Test Passed");		
 			removeTestFromTestMapper(runningTestObject);
 		}
 	}
@@ -44,6 +46,8 @@ public class TestManager {
 		if (testMapper.containsKey(runningTestObject)) {
 			ExtentTest test = testMapper.get(runningTestObject);
 			test.log(Status.FAIL, result.getThrowable());
+			BaseTest baseTest = (BaseTest) runningTestObject;
+			baseTest.getLogger().error("Test Failed : "+result.getThrowable());
 			removeTestFromTestMapper(runningTestObject);
 		}
 	}

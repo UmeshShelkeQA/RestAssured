@@ -11,6 +11,11 @@ public class RetryListener implements IAnnotationTransformer {
 	public void transform (final ITestAnnotation annotation, final Class testClass, final Constructor testConstructor,
 	final Method testMethod) {
 //		System.out.println(testMethod.getName());
-		annotation.setRetryAnalyzer (TestRetrier.class);
+		String[] groups = annotation.getGroups();
+		for(String group:groups) {
+			if(group.equals("Flaky Test")) {
+				annotation.setRetryAnalyzer (TestRetrier.class);
+			}
+		}
 	}
 }
